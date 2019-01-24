@@ -44,7 +44,6 @@ repositories {
 Afterwards your gradle will be able to find the following dependency in github. You just need to copy paste this part to your dependencies section and gradle will be able to download and use this repository.
 
 ```
-<!--https://github.com/ToZeimetz/EndpointParser -->
-    // https://github.com/ToZeimetz/EndpointParser
-    compile 'EndpointParser:EndpointParser:1.0'
+// https://github.com/ToZeimetz/EndpointParser
+compile 'EndpointParser:EndpointParser:1.0'
 ```
