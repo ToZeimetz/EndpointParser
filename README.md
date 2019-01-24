@@ -49,6 +49,15 @@ compile 'EndpointParser:EndpointParser:LATEST'
 ```
 
 ## How to use in Java
+This code is all you need
+
+```
+EndpointParser.getAvailableEndpoints();
+```
+
+If you want to display all retrieved (up and running!) sparql endpoints just use the following code.
+
 ```
 
 ```
+
