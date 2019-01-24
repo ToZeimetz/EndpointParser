@@ -1,7 +1,7 @@
 # EndpointParser
 A SPARQL endpoint parser that uses the http://sparqles.ai.wu.ac.at/ api to find up and running endpoints
 
-## Usage
+## Usage Maven
 Just copy and paste the following in you pom.xml file. 
 
 ```
@@ -17,7 +17,7 @@ Just copy and paste the following in you pom.xml file.
 </repositories>
 ```
 
-The same structure would also work in gradle! Afterwards your maven will be able to find this repository as dependency. You just need to copy paste the following in your dependencies section.
+Afterwards your maven will be able to find the following dependency in github. You just need to copy paste this part to your dependencies section and maven will be able to download and use this repository.
 
 ```
 <!--https://github.com/ToZeimetz/EndpointParser -->
@@ -26,4 +26,25 @@ The same structure would also work in gradle! Afterwards your maven will be able
     <artifactId>EndpointParser</artifactId>
     <version>LATEST</version>
 </dependency>
+```
+
+## Usage Gradle
+Just copy and paste the following in you gradle.build file into the repository section.
+
+```
+repositories {
+    ...
+
+    maven {
+        url "https://github.com/ToZeimetz/EndpointParser"
+    }
+}
+```
+
+Afterwards your gradle will be able to find the following dependency in github. You just need to copy paste this part to your dependencies section and gradle will be able to download and use this repository.
+
+```
+<!--https://github.com/ToZeimetz/EndpointParser -->
+    // https://github.com/ToZeimetz/EndpointParser
+    compile 'EndpointParser:EndpointParser:1.0'
 ```
