@@ -25,7 +25,7 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>releases/</url>
+            <url>file://${basedir}/releases/</url>
         </repository>
     </distributionManagement>
 
