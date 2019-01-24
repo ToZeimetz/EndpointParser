@@ -7,8 +7,8 @@ Just copy and paste the following in you pom.xml file.
 ```
 <repositories>
     <repository>
-        <id>sotorrent</id>
-        <url>https://raw.github.com/sotorrent/releases/master/</url>
+        <id>tozeimetz</id>
+        <url>https://github.com/ToZeimetz/EndpointParser</url>
         <snapshots>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
