@@ -58,6 +58,13 @@ EndpointParser.getAvailableEndpoints();
 If you want to display all retrieved (up and running!) sparql endpoints just use the following code.
 
 ```
+Map<String,String> map = EndpointParser.getAvailableEndpoints();
 
+int counter = 0;
+Iterator<String> it = map.keySet().iterator();
+while (it.hasNext()){
+    String uri = it.next();
+    System.out.println((counter++) + ".\t" + map.get(uri) + ": " + uri);
+}
 ```
 
