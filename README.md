@@ -22,8 +22,8 @@ Afterwards your maven will be able to find the following dependency in github. Y
 ```
 <!--https://github.com/ToZeimetz/Parser.EndpointParser -->
 <dependency>
-    <groupId>Parser.EndpointParser</groupId>
-    <artifactId>Parser.EndpointParser</artifactId>
+    <groupId>EndpointParser</groupId>
+    <artifactId>EndpointParser</artifactId>
     <version>LATEST</version>
 </dependency>
 ```
