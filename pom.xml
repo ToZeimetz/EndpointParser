@@ -6,13 +6,14 @@
 
     <groupId>EndpointParser</groupId>
     <artifactId>EndpointParser</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <url>https://github.com/ToZeimetz/EndpointParser</url>
 
     <properties>
+        <java.version>11</java.version>
         <!-- Maven -->
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.compiler.plugin.version>3.8.0</maven.compiler.plugin.version>
         <maven.jar.plugin.version>3.1.0</maven.jar.plugin.version>
         <maven.assembly.plugin.version>3.1.0</maven.assembly.plugin.version>
