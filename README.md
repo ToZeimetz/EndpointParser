@@ -8,7 +8,7 @@ Just copy and paste the following in you pom.xml file.
 <repositories>
     <repository>
         <id>tozeimetz</id>
-        <url>https://github.com/ToZeimetz/Parser.EndpointParser</url>
+        <url>https://github.com/ToZeimetz/EndpointParser</url>
         <snapshots>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
@@ -20,7 +20,7 @@ Just copy and paste the following in you pom.xml file.
 Afterwards your maven will be able to find the following dependency in github. You just need to copy paste this part to your dependencies section and maven will be able to download and use this repository.
 
 ```
-<!--https://github.com/ToZeimetz/Parser.EndpointParser -->
+<!--https://github.com/ToZeimetz/EndpointParser -->
 <dependency>
     <groupId>EndpointParser</groupId>
     <artifactId>EndpointParser</artifactId>
