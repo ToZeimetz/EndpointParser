@@ -45,7 +45,7 @@ Afterwards your gradle will be able to find the following dependency in github. 
 
 ```
 // https://github.com/ToZeimetz/EndpointParser
-compile 'Parser.EndpointParser:Parser.EndpointParser:LATEST'
+compile 'EndpointParser:EndpointParser:LATEST'
 ```
 
 ## How to use in Java
