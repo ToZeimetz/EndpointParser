@@ -36,7 +36,7 @@ repositories {
     ...
 
     maven {
-        url "https://github.com/ToZeimetz/Parser.EndpointParser"
+        url "https://github.com/ToZeimetz/EndpointParser"
     }
 }
 ```
@@ -44,7 +44,7 @@ repositories {
 Afterwards your gradle will be able to find the following dependency in github. You just need to copy paste this part to your dependencies section and gradle will be able to download and use this repository.
 
 ```
-// https://github.com/ToZeimetz/Parser.EndpointParser
+// https://github.com/ToZeimetz/EndpointParser
 compile 'Parser.EndpointParser:Parser.EndpointParser:LATEST'
 ```
 
